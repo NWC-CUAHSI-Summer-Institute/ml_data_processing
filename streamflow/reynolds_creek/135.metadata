@@ -1,0 +1,19 @@
+
+# Site Name: Dobson Creek near confluence with Reynolds Creek, Reynolds Creek
+# Site Key: Local site key is 135
+# Site Location: 43.123373 °N    -116.774419 °W  WGS84, 1480 m MSL
+# File Contents: Hourly Discharge QA/QC to Level 2 on Reynolds Creek Experimental Watershed, Owyhee County, Idaho, USA.
+# Period of Record:  January 1973 to  December 2019
+# Date & Time: USA Mountain Standard Time (GMT-7) as 'year-month-day hour:minute', measurements reported at end of interval
+# Contact: Please address any questions or comments to ars-boise-data@usda.gov
+# Missing Data: Missing data represented by '-999'
+# Acknowledgement: Please acknowledge the use of this data. Please acknowledge that the data was made available by the Northwest Watershed Research Center, ARS, USDA. If the use of this data contributes to a publication or other works with a DOI please send a citation and DOI to ars-boise-data@usda.gov
+# Additional Information: Methods documentation and additional metadata are available in "readme.txt" associated with this data type's folder.
+# License Notice: This software/database is a "United States Government Work" under the terms of the United States Copyright Act. It was written as part of the author's official duties as a United States Government employee and thus cannot be copyrighted. This software/database is freely available to the public for use. The Agricultural Research Service (ARS) and the U.S. Government have not placed any restriction on its use or reproduction. Although all reasonable efforts have been taken to ensure the accuracy and reliability of the software and data, the ARS and the U.S. Government do not and cannot warrant the performance or results that may be obtained by using this software or data. The ARS and the U.S. Government disclaim all warranties, express or implied, including warranties of performance, merchant ability or fitness for any particular purpose.
+#
+# Data columns:
+#
+# datetime      Date & Time (yyyy-mm-dd hh:mm)
+# qcms          Calculated Discharge (m^3 s^-1)
+#
+#---------------------------------- cut below here for simple csv file format -----------------------------------
