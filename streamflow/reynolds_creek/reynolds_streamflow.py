@@ -68,7 +68,6 @@ for q_file in reynolds_files:
         #####################################################################
         ############    WRITE THE OUPUT TO CSV FILE          ################
         ############    FORMATTED AS THE OTHER STREAMFLOWS   ################
-        df_daily = df_daily.reset_index()
         df_daily.to_csv('{}_streamflow_qc.txt'.format(df_daily.basin_id[1]), sep=' ', header=False, index=False)
 
     else:
