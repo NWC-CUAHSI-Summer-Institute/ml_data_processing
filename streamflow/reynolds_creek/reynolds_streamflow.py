@@ -65,8 +65,11 @@ for q_file in reynolds_files:
         df_daily['Month'] = [int(df_daily.loc[i,'Month']) for i in df_daily.index.values]
         df_daily['Day'] = [int(df_daily.loc[i,'Day']) for i in df_daily.index.values]
         
-        # Write the data out to a csv file
-        df_daily.to_csv('{}_streamflow_qc.txt'.format(df_daily.basin_id[1], sep="\s"))
+        #####################################################################
+        ############    WRITE THE OUPUT TO CSV FILE          ################
+        ############    FORMATTED AS THE OTHER STREAMFLOWS   ################
+        df_daily = df_daily.reset_index()
+        df_daily.to_csv('{}_streamflow_qc.txt'.format(df_daily.basin_id[1]), sep=' ', header=False, index=False)
 
     else:
 
@@ -116,5 +119,7 @@ for q_file in reynolds_files:
         df_daily['Month'] = [int(df_daily.loc[i,'Month']) for i in df_daily.index.values]
         df_daily['Day'] = [int(df_daily.loc[i,'Day']) for i in df_daily.index.values]
         
-        # Write the data out to a csv file
-        df_daily.to_csv('{}_streamflow_qc.txt'.format(df_daily.basin_id[1], sep="\s"))
+        #####################################################################
+        ############    WRITE THE OUPUT TO CSV FILE          ################
+        ############    FORMATTED AS THE OTHER STREAMFLOWS   ################
+        df_daily.to_csv('{}_streamflow_qc.txt'.format(df_daily.basin_id[1]), sep=' ', header=False, index=False)
